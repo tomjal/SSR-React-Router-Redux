@@ -16,7 +16,7 @@ const app = express();
 app.use(compression());
 app.use(express.static(path.join(__dirname)));
 
-app.get('*', async (req, res) => {
+app.get('**', async (req, res) => {
   const scripts = ['vendor.js', 'client.js'];
 
   const initialState = { initialText: "route rendered by server" };
