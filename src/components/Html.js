@@ -25,8 +25,7 @@ class Html extends React.Component {
             <script
               dangerouslySetInnerHTML={{
                 __html: `window.APP_STATE=${JSON.stringify(initialState)}`
-              }}
-            ></script>
+              }} async></script>
           )}
           {scripts.map((item, index) => {
             return <script key={index} src={item}></script>;

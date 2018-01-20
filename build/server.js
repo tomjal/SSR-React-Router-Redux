@@ -314,8 +314,7 @@ var Html = function (_React$Component) {
           initialState && _react2.default.createElement('script', {
             dangerouslySetInnerHTML: {
               __html: 'window.APP_STATE=' + JSON.stringify(initialState)
-            }
-          }),
+            }, async: true }),
           scripts.map(function (item, index) {
             return _react2.default.createElement('script', { key: index, src: item });
           })

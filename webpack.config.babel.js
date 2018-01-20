@@ -12,7 +12,7 @@ const common = {
         query: {
           presets: [
             'env',
-            'stage-2',
+            'stage-0',
             'react'
           ]
         }
