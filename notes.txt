@@ -1,3 +1,7 @@
+To-Do:
+Firebase functions witch cache integration
+
+Others
 https://crypt.codemancers.com/posts/2017-06-03-reactjs-server-side-rendering-with-router-v4-and-redux/
 https://github.com/jgliner/react-router-v4-redux-ssr
 https://github.com/Alex-ray/v2-universal-js-hmr-ssr-react-redux
@@ -5,3 +9,6 @@ https://blog.digitalkwarts.com/server-side-rendering-with-reactjs-react-router-v
 
 SSR code splitting
 https://blog.emilecantin.com/web/react/javascript/2017/05/16/ssr-react-router-4-webpack-code-split.html
+
+PWA CRA with Intl goodies
+https://github.com/adarshsingh1407/neo-cra
